@@ -1,7 +1,8 @@
 function [alpha, mu, sigma, likelihood_vals] = em_gmm(x,K)
 %% x: N*d
 %% k:number of gaussian component
-%% implement as the "The EM Algorithm for Gaussian Mixtures, Probabilistic Learning: Theory and Algorithms, CS 274A"
+%% implement as the "The EM Algorithm for Gaussian Mixtures, Probabilistic Learning: Theory and Algorithms, CS 274A", 
+%% http://www.ics.uci.edu/~smyth/courses/cs274/notes/EMnotes.pdf
 %% no optimization
 
 [N,d]=size(x);
